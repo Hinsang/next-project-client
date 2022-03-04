@@ -31,7 +31,7 @@ const MyPage = () => {
               회원가입, 유효성검사, 로그인 API기능을 추가하고, cors에러를 해결하며 airbnb 문법으로 코드를 작성하였습니다.
               client는 netlify로 배포하였고, server는 aws로 배포하려고 하였으나, aws가 신용카드가 없어서 회원가입을 못해서
               일단 front만 배포하기로 하였습니다. (server부분은 사실 백엔드 개발자의 영역이기도 하므로..) 그래서 로그인 회원가입
-              api 구현은 했으나 server 배포는 안해서 작동하지는 않습니다.
+              api 구현, 작동은 했으나 server 배포는 안해서 작동하지는 않습니다.
             </h4>
             <h2 style={{ marginTop: 100 }}>현재 기술 스택</h2>
             <About1 />
