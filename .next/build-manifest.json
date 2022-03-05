@@ -15,6 +15,16 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
+    "/Introduce": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Introduce.js"
+    ],
     "/Mypage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
