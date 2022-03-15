@@ -29,9 +29,9 @@ const MyPage = () => {
           <div>
             <h4>React, next, redux, saga, express, mongoose, antd, styled-component, mongoDB 등을 사용하여
               회원가입, 유효성검사, 로그인 API기능을 추가하고, cors에러를 해결하며 airbnb 문법으로 코드를 작성하였습니다.
-              client는 netlify로 배포하였고, server는 aws로 배포하려고 하였으나, aws가 신용카드가 없어서 회원가입을 못하므로
-              일단 front만 배포하기로 하였습니다. (server부분은 사실 백엔드 개발자의 영역이기도 하므로..) 그래서 로그인 회원가입
-              api의 구현은 했으나 server 배포는 안해서 백엔드 server는 작동하지 않습니다.
+              client는 netlify로 배포하였고, server는 heroku로 배포하였으나, 배포모드에서 session이 추가가 안되는 에러가 발생해서
+              그냥 프론트부터 먼저 배포하기로 했습니다. 그래서 로그아웃, 새로고침하면 로그인이 풀리는 문제가 발생합니다.
+              그 외의 프론트엔드 부분이나 로그인, 회원가입 부분은 문제없이 작동합니다.
             </h4>
             <h2 style={{ marginTop: 100 }}>현재 기술 스택</h2>
             <About1 />
