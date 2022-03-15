@@ -10,8 +10,8 @@ import { LOAD_MY_INFO_REQUEST } from '../reducers/user';
 
 function MyApp({ Component, pageProps }) {
   // document.cookie = 'crossCookie=bar; SameSite=None; Secure';
-  document.cookie = 'same-site-cookie=foo; SameSite=Lax';
-  document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+  // document.cookie = 'same-site-cookie=foo; SameSite=Lax';
+  // document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
   const dispatch = useDispatch();
 
   useEffect(() => {
