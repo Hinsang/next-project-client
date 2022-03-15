@@ -25,6 +25,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/Introduce.js"
     ],
+    "/Mypage": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Mypage.js"
+    ],
+    "/Studies": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Studies.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

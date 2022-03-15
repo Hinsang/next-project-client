@@ -40,6 +40,15 @@
   margin: 20px;
   cursor: pointer;
 }
+.side_toolbar_check {
+  padding: 5px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 20px;
+  cursor: pointer;
+  color: red;
+}
 .side_toolbar:hover {
   color: skyblue;
   cursor: pointer;
