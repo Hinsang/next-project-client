@@ -1,24 +1,24 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../styles/globals.css';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import Toolbar from '../components/Toolbar';
 import wrapper from '../configure/configure';
-import { LOAD_MY_INFO_REQUEST } from '../reducers/user';
+// import { LOAD_MY_INFO_REQUEST } from '../reducers/user';
 
 function MyApp({ Component, pageProps }) {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch({
-      type: LOAD_MY_INFO_REQUEST,
-    });
-    // dispatch({
-    //   type: LOAD_POSTS_REQUEST,
-    // });
-  }, []);
+  // useEffect(() => {
+  //   dispatch({
+  //     type: LOAD_MY_INFO_REQUEST,
+  //   });
+  //   // dispatch({
+  //   //   type: LOAD_POSTS_REQUEST,
+  //   // });
+  // }, []);
 
   return (
     <>
