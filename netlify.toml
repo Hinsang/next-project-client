@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/*"
-  to = "https://next-project-server.herokuapp.com/:splat"
+  from = "/api/*"
+  to = "https://ometer-back.herokuapp.com/:splat"
   status = 200
   force = true
 
