@@ -16,7 +16,7 @@ import { LOG_IN_FAILURE, LOG_IN_SUCCESS, LOG_IN_REQUEST,
 function loadUserAPI() {
   // const { me } = useSelector((state) => state.user);
   // if (me) { console.log(me); }
-  return axios.get('https://next-project-server.herokuapp.com');
+  return axios.get('https://next-project-server.herokuapp.com/api');
   // get이랑 delete는 데이터가 없으므로 2번째 자리에 옵션이 들어가는데
   // saga index에서 credentials 공통 처리를 해주었으므로 생략한다.
 }
