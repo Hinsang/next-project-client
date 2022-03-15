@@ -9,6 +9,7 @@ import wrapper from '../configure/configure';
 import { LOAD_MY_INFO_REQUEST } from '../reducers/user';
 
 function MyApp({ Component, pageProps }) {
+  document.cookie = 'crossCookie=bar; SameSite=None; Secure';
   const dispatch = useDispatch();
 
   useEffect(() => {
