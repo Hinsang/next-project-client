@@ -7,4 +7,4 @@
 [[headers]]
    for = "/*"
    [headers.values]
-      Access-Control-Allow-Origin = "https://next-project-server.herokuapp.com/"
+      Access-Control-Allow-Origin = "*"
